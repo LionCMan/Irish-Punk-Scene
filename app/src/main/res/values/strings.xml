@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">IrishPunkScene</string>
+    <string name="recent">Recent</string>
+    <string name="favorite">Favorite</string>
+    <string name="random">Random</string>
+    <string name="bands">Bands</string>
+    <string name="albums">Albums</string>
+    <string name="albumsTextView">Displays a list of albums released by punk bands in Ireland. Each list item, when selected, changes the ImageView to the specific album image. The list item will drop down revealing song titles/artist name, the option to buy/download/unlock the album, and a description/review of the album</string>
+    <string name="bandsTextView">Displays a list of bands in the Irish punk scene. Each list item when clicked will display the band image, drop down and reveal the band\'s genre/style and their bio with a link to their released albums and \'free to listen\' singles. The user will also have the option of \'favoriting\' the band.</string>
+    <string name="favoritesTextView">Displays a list of \'favorited\' bands, \'free songs\' or purchased songs. Each list item, when clicked will display a video pulled from YouTube. The user has the option to \'hate\' the list item to remove it from the \'favorites\' list</string>
+    <string name="randomTextView">Displays \'Random\' punk song which is pulled from the \'free to listen\' songs on YouTube. The user has the option to skip to the next track or go back to the previous song.</string>
+    <string name="appNameSpaces">Irish Punk Scene</string>
+</resources>

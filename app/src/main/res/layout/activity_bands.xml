@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context="com.example.android.irishpunkscene.AlbumsActivity">
+
+    <LinearLayout style="@style/buttonLayout"
+        android:background="@color/colorPrimary"
+        android:paddingBottom="8dp">
+
+        <ImageView android:id="@+id/recentTV"
+            style="@style/iconImageTop"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            android:src="@drawable/iconrecent" />
+
+        <ImageView android:id="@+id/favoriteTV"
+            style="@style/iconImageTop"
+            android:scaleX="0.9"
+            android:scaleY="0.9"
+            android:src="@drawable/iconfavorite" />
+
+        <ImageView android:id="@+id/randomTV"
+            style="@style/iconImageTop"
+            android:scaleX="0.8"
+            android:scaleY="0.9"
+            android:src="@drawable/iconrandom" />
+
+        <ImageView android:id="@+id/bandsTV"
+            style="@style/iconImageTop"
+            android:scaleX="0.95"
+            android:scaleY="0.95"
+            android:src="@drawable/iconbands" />
+
+        <ImageView android:id="@+id/albumsTV"
+            style="@style/iconImageTop"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            android:src="@drawable/iconalbums" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="@color/background"
+        android:src="@drawable/spazattackbandphoto"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSize"
+            android:text="@string/bandsTextView" />
+    </ScrollView>
+</LinearLayout>

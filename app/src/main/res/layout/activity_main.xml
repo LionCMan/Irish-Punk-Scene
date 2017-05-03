@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context="com.example.android.irishpunkscene.MainActivity">
+
+    <ImageView style="@style/mainImage" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/textSize"
+        android:text="Launch screen of the app with labeled directories to each activity"
+        />
+
+    <LinearLayout style="@style/buttonLayout">
+
+        <TextView style="@style/fillerTextView" />
+
+        <LinearLayout
+            style="@style/buttonView">
+
+            <ImageView
+                android:id="@+id/recentTV"
+                style="@style/iconImage"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/iconrecent" />
+
+            <TextView
+                style="@style/iconText"
+                android:text="@string/recent" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/buttonView">
+
+            <ImageView
+                android:id="@+id/favoriteTV"
+                style="@style/iconImage"
+                android:scaleX="0.9"
+                android:scaleY="0.9"
+                android:src="@drawable/iconfavorite" />
+
+            <TextView
+                style="@style/iconText"
+                android:text="@string/favorite" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/buttonView">
+
+            <ImageView
+                android:id="@+id/randomTV"
+                style="@style/iconImage"
+                android:scaleX="0.8"
+                android:scaleY="0.9"
+                android:src="@drawable/iconrandom" />
+
+            <TextView
+                style="@style/iconText"
+                android:text="@string/random" />
+        </LinearLayout>
+
+        <TextView style="@style/fillerTextView" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/buttonLayout">
+
+        <TextView style="@style/fillerTextView2" />
+
+        <LinearLayout
+            style="@style/buttonView">
+
+            <ImageView
+                android:id="@+id/bandsTV"
+                style="@style/iconImage"
+                android:scaleX="0.95"
+                android:scaleY="0.95"
+                android:src="@drawable/iconbands" />
+
+            <TextView
+                style="@style/iconText"
+                android:text="@string/bands" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/buttonView">
+
+            <ImageView
+                android:id="@+id/albumsTV"
+                style="@style/iconImage"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/iconalbums" />
+
+            <TextView
+                style="@style/iconText"
+                android:text="@string/albums" />
+        </LinearLayout>
+
+        <TextView style="@style/fillerTextView2" />
+
+    </LinearLayout>
+</LinearLayout>
+
+
